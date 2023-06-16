@@ -37,4 +37,4 @@ if input1 != '' and input2!= '': #making sure that the inputs are not empty
 
     #FxManifest Creation
     with open(path + '/fxmanifest.lua', 'w') as fp:
-        fp.write('fx_version "adamant"\ngames {"rdr3}"\nrdr3_warning "I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships."\n\nlua54 "yes"\n\nshared_scripts {\n  "config.lua"\n}\n\nserver_scripts {\n  "/server/server.lua"\n}\n\nclient_scripts {\n  "/client/functions.lua",\n  "/client/client.lua"\n}')
+        fp.write('fx_version "adamant"\ngames {"rdr3"}\nrdr3_warning "I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships."\n\nlua54 "yes"\n\nshared_scripts {\n  "config.lua"\n}\n\nserver_scripts {\n  "/server/server.lua"\n}\n\nclient_scripts {\n  "/client/functions.lua",\n  "/client/client.lua"\n}')
